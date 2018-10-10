@@ -1,0 +1,18 @@
+/* Container needed to position the button. Adjust the width as needed */
+.container1 {
+    position: relative;
+  }
+  
+  /* Make the image responsive */
+  .container1 img {
+    width: 1325px;
+    height: auto;
+  }
+  
+  /* Style the button and place it in the middle of the container/image */
+  .container1 .btn {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
